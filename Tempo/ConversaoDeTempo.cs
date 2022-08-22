@@ -11,6 +11,7 @@ namespace Tempo
         public int Minutos { get; set; }
         public int Segundo { get; set; }
         public int Resta { get; set; }
+        
         public ConversaoDeTempo (int segundosInformado)
         {
             SegundosInformado = segundosInformado;
